@@ -1,4 +1,8 @@
 name: SonarQube SaaS version i.e SonarCloud
+on: [push]
+
+permissions:
+  issues: write
 # on: 
 #   push:
 #     branches:
